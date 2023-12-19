@@ -21,7 +21,7 @@ main{
     background-image: url(../assets/images/background-pattern-mobile.svg);
     background-color:#f3e6fa;
     background-repeat: no-repeat;
-    background-size:50rem;
+    background-size:100%;
     min-height: 100vh;
 }
 .sesao-principal{
@@ -41,7 +41,7 @@ main{
 article{
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: -6rem;
     gap: 25px;
     background-color: rgb(255, 255, 255);
     width: 32rem; 
