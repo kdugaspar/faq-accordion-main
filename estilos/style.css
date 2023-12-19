@@ -36,6 +36,8 @@ article{
     border-top: 30px solid rgba(0, 255, 21, 0);
     border-bottom: 26px solid rgba(200, 255, 0, 0);
     border-radius: 1rem;
+    box-shadow: 20px 20px 20px 20px #88888811;
+
     
 }
 .sesao01{
