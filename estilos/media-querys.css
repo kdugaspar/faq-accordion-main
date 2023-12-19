@@ -3,7 +3,7 @@
 @media screen and (min-width: 390px) and (max-width: 844px) {
 
     article {
-        margin-top: -2rem;
+        margin-top: 10rem;
     }
 
 }
@@ -19,7 +19,7 @@
 @media screen and (min-width: 412px) and (max-width: 915px) {
 
     article {
-        margin-top: -6rem;
+        margin-top: 6rem;
     }
 
 }
@@ -27,7 +27,7 @@
 @media screen and (min-width: 414px) and (max-width: 896px) {
 
     article {
-        margin-top: -4rem;
+        margin-top: 8rem;
     }
 
 }
@@ -35,7 +35,7 @@
 @media screen and (min-width: 430px) and (max-width: 932px) {
 
     article {
-        margin-top: -6rem;
+        margin-top: 7rem;
     }
 
 }
@@ -44,7 +44,7 @@
 
     /* TABLET */
     article {
-        margin-top: 19rem;
+        margin-top: 26rem;
     }
 }
 
@@ -57,7 +57,7 @@
     }
 
     article {
-        margin-top: 6rem;
+        margin-top: 13rem;
         background-color: rgb(255, 255, 255);
         width: 52rem;
     }
@@ -92,7 +92,7 @@
     }
 
     article {
-        margin-top: 10.5rem;
+        margin-top: 17rem;
         background-color: rgb(255, 255, 255);
         width: 52rem;
     }
@@ -126,7 +126,7 @@
 
     article {
       /*  margin-top: 19rem; */
-        margin-top:13.5%; 
+        margin-top:25.5rem; 
         background-color: rgb(255, 255, 255);
         width: 52rem;
     }
