@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Montserrat:wght@100;200;300;400;500;600;700&family=Outfit:wght@300;400;600&family=Work+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../assets/images/background-pattern-mobile.svg);
+    background-color:#f3e6fa;
+    background-repeat: no-repeat;
+    background-size:100%;
+    min-height: 100vh;
+}
+h1{
+    font-size: 4.5rem;
+}
+.paragrafo01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.6rem;
+}
+.paragrafo02{
+    background-color: rgba(0, 255, 255, 0);
+    font-size: 1.6rem;
+    width: 31rem;
+}
+.texto01{
+    background-color: rgba(0, 255, 255, 0);
+    font-size: 1.8rem;
+    font-weight:700;
+    width: 24rem; 
+}
+.icone01{
+
+}
+
+.sesao-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 37rem;
+    height: 50rem;
+    border-radius: 1rem;
+    
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 25px;
+    background-color: #e20e0e00;
+    width: 32rem;
+}
+.sesao01{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+details{
+    background-color: rgba(0, 255, 255, 0);
+}
+summary{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}  
+.blocos{
+    font-size: 1.6rem;
+    background-color: rgba(255, 192, 203, 0);
+    width: 22rem;
+    font-weight:700;
+}
+.p0{
+    font-size: 1.6rem;
+}
