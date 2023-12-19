@@ -24,20 +24,7 @@ main{
     background-size:100%;
     min-height: 100vh;
 }
-.sesao-principal{
-   /*
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 37.2%;
-    background-color: rgb(255, 255, 255);
-    width: 37rem;
-    height: 50rem;
-    border-radius: 1rem;
-    */
 
-}
 article{
     display: flex;
     flex-direction: column;
