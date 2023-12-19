@@ -51,18 +51,20 @@ h1{
     background-color: rgba(127, 255, 212, 0);
     font-size: 4.1rem;
 }
-.paragrafo01{
+.sesao-titulo2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(137, 43, 226, 0);
 }
-.texto01{
+.titulo2{
     background-color: rgba(0, 255, 255, 0);
     font-size: 1.9rem;
     font-weight:700;
     width: 24rem; 
 }
+
 .paragrafo02{
     background-color: rgba(0, 255, 255, 0);
     font-size: 1.6rem;
