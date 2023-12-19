@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 390px) and (max-width: 844px){
+
+    article{
+       margin-top: -2rem; 
+    }
+
+}
+@media screen and (min-width: 403px) and (max-width: 894px){
+
+    article{
+       margin-top: -5rem;  
+    }
+
+}
+@media screen and (min-width: 412px) and (max-width: 915px){
+
+    article{
+       margin-top: -6rem;  
+    }
+
+}
+@media screen and (min-width: 414px) and (max-width: 896px){
+
+    article{
+       margin-top: -4rem;  
+    }
+
+}
+@media screen and (min-width: 430px) and (max-width: 932px){
+
+    article{
+       margin-top: -6rem;  
+    }
+
+}
