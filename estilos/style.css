@@ -14,72 +14,94 @@
 
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
     background-image: url(../assets/images/background-pattern-mobile.svg);
     background-color:#f3e6fa;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:50rem;
     min-height: 100vh;
 }
+.sesao-principal{
+   /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37.2%;
+    background-color: rgb(255, 255, 255);
+    width: 37rem;
+    height: 50rem;
+    border-radius: 1rem;
+    */
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 25px;
+    background-color: rgb(255, 255, 255);
+    width: 32rem; 
+    border: 24px solid white;
+    border-top: 30px solid rgba(0, 255, 21, 0);
+    border-bottom: 26px solid rgba(200, 255, 0, 0);
+    border-radius: 1rem;
+    
+}
+.sesao01{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:25px;    
+}
+.icone-estrela{
+    background-color: rgba(0, 0, 255, 0);
+}
 h1{
-    font-size: 4.5rem;
+    background-color: rgba(127, 255, 212, 0);
+    font-size: 4.1rem;
 }
 .paragrafo01{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size:1.6rem;
+}
+.texto01{
+    background-color: rgba(0, 255, 255, 0);
+    font-size: 1.9rem;
+    font-weight:700;
+    width: 24rem; 
 }
 .paragrafo02{
     background-color: rgba(0, 255, 255, 0);
     font-size: 1.6rem;
     width: 31rem;
-}
-.texto01{
-    background-color: rgba(0, 255, 255, 0);
-    font-size: 1.8rem;
-    font-weight:700;
-    width: 24rem; 
-}
-.icone01{
-
-}
-
-.sesao-principal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    width: 37rem;
-    height: 50rem;
-    border-radius: 1rem;
+    height: 12rem;
     
 }
 
-article{
-    display: flex;
-    flex-direction: column;
-    
-    gap: 25px;
-    background-color: #e20e0e00;
-    width: 32rem;
-}
-.sesao01{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    
+.icone-texto-01{
+
 }
 
+.icones{
+    width: 3.3rem;
+}
+.sesao-detalhes{
+display: flex;
+flex-direction: column;
+}
 details{
+    display: flex;
+    border-top: 1px solid rgba(97, 97, 95, 0.219);
     background-color: rgba(0, 255, 255, 0);
 }
 summary{
+height: 7rem;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -93,4 +115,6 @@ align-items: center;
 }
 .p0{
     font-size: 1.6rem;
+    padding: 1rem;
+    
 }
