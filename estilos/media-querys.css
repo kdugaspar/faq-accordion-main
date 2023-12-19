@@ -35,3 +35,41 @@
     }
 
 }
+@media screen and (min-width: 500px) and (max-width: 992px){
+    /* TABLET */
+article{
+    margin-top: 19rem;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /* TABLET */
+    main{  
+        background-image: url(../assets/images/background-pattern-desktop.svg);
+        background-color:#f3e6fa;
+        background-repeat: no-repeat;
+        background-size:100%;
+        min-height: 100vh;
+    }
+article{
+    margin-top: 6rem;
+    background-color: rgb(255, 255, 255);
+    width: 52rem;
+}
+.texto01{
+    background-color: rgba(0, 255, 255, 0);
+    font-size: 1.9rem;
+    font-weight:700;
+    width: 48rem; 
+}
+.paragrafo02{
+    background-color: rgba(0, 255, 255, 0);
+    font-size: 1.6rem;
+    width: 52rem;
+    height: 12rem;
+    
+}
+.blocos{
+    background-color: rgba(255, 192, 203, 0);
+    width: 48rem;
+}
+}
